@@ -1,0 +1,17 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "keywords": [],
+  "author": "Tomas Pasiecznik",
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0"
+  }
+}
