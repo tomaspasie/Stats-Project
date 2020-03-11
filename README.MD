@@ -48,7 +48,115 @@ Outline:
 
 Task List
 
-Task 1 - By Tomas Pasiecznik
+Task 1
 Description: Mean
-Formula: Mean = Sum of Values/# of Values
-Example: 10 = 100/10
+Formula: Sum of Values/# of Values
+Example: 100/10 = 10
+
+Task 2
+Description: Median
+Formula:((n + 1) ÷ 2)
+Example:((7 + 1) ÷ 2) = 4, The 4th number in the set is the median.
+
+Task 3
+Description: Mode
+Formula: Number that occurs most often.
+Example:{1, 2, 3, 3, 3, 4} Mode: 3
+
+Task 4
+Description: Variance
+Formula: The variance (σ2), is defined as the sum of the squared distances of each term in the distribution from the mean (μ), divided by the number of terms in the distribution (N).
+Example:(n/a)
+
+Task 5
+Description: Standard Deviation
+Formula: Square root of the variance.
+Example:(n/a)
+
+Task 6
+Description: Quartiles
+Formula: Count how many numbers there are in your set and then divide by 4 to cut the list of numbers into quarters.
+Example: 2, 5, 6, | 7, 10, 12 | 13, 14, 16, | 22, 45, 65
+
+Task 7
+Description: Skewness
+Formula: 3 * (Mean – Median) / Standard Deviation
+Example:(n/a)
+
+Task 8
+Description: Sample Correlation
+Formula:r(xy) = s(xy)/s(x)s(y)
+Example:(n/a)
+
+Task 9
+Description: Population Correlation
+Formula: p(xy) = σ(xy)/σ(x)σ(y)
+Example:(n/a)
+
+Task 10
+Description: Z-Score
+Formula: z = (x-μ)/σ
+Example: 1.25 = (25-20)/4
+
+Task 11
+Description: Mean Deviation / Mean Absolute Deviation
+Formula: Find the mean of all values, use it to work out distances, then find the mean of those distances.
+Example: (n/a)
+
+Task 12
+Description: Helper Functions (Functions you use for checking types or performing repeated operations)
+Formula: (n/a)
+Example: (n/a)
+
+Task 13
+Description: Random Number Generator
+Formula: 
+Random Generator function
+Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
+Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
+Generate a list of N random numbers with a seed and between a range of numbers - Both Integer and Decimal
+Select a random item from a list
+Set a seed and randomly.select the same value from a list
+Select N number of items from a list without a seed
+Select N number of items from a list with a seed
+Example: (n/a)
+
+Task 14
+Description:
+Formula:
+Example:
+
+Task 15
+Description:
+Formula:
+Example:
+
+Task 16
+Description:
+Formula:
+Example:
+
+Task 17
+Description:
+Formula:
+Example:
+
+Task 18
+Description:
+Formula:
+Example:
+
+Task 19
+Description:
+Formula:
+Example:
+
+Task 20
+Description:
+Formula:
+Example:
+
+Task 21
+Description:
+Formula:
+Example:
