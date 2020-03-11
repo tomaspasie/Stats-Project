@@ -48,7 +48,7 @@ Outline:
 
 Task List
 
-Task 1
+Task 1 
 Description:
 Formula:
 Example:
