@@ -48,7 +48,7 @@ Outline:
 
 Task List
 
-Task 1 
-Description:
-Formula:
-Example:
+Task 1 - By Tomas Pasiecznik
+Description: Mean
+Formula: Mean = Sum of Values/# of Values
+Example: 10 = 100/10
