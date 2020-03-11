@@ -122,41 +122,41 @@ Select N number of items from a list with a seed
 Example: (n/a)
 
 Task 14
-Description:
-Formula:
-Example:
+Description: Simple random sampling
+Formula: (n/a)
+Example: (n/a)
 
 Task 15
-Description:
-Formula:
-Example:
+Description: Systematic sampling
+Formula: (n/a)
+Example: (n/a)
 
 Task 16
-Description:
-Formula:
-Example:
+Description: Confidence Interval For a Sample
+Formula: (n/a)
+Example: 95% Confidence Level 
 
 Task 17
-Description:
-Formula:
-Example:
+Description: Margin of Error
+Formula: z(σ/(sqrt(n)))
+Example: (n/a)
 
 Task 18
-Description:
-Formula:
-Example:
+Description: How to Find a Confidence Interval
+Formula: (n/a)
+Example: 95% Confidence Level 
 
 Task 19
-Description:
-Formula:
-Example:
+Description: Cochran’s Sample Size Formula
+Formula: n = n0 / 1 + ((n0 - 1)/N)
+Example: 278 = 385 / (1 + (385 - 1 /1000))
 
 Task 20
-Description:
-Formula:
-Example:
+Description: How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
+Formula: (n/a)
+Example: (n/a)
 
 Task 21
-Description:
-Formula:
-Example:
+Description: How to Find a Sample Size Given a Confidence Interval and Width (known population standard deviation)
+Formula: (n/a)
+Example: (n/a)
