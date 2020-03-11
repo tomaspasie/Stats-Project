@@ -3,6 +3,10 @@
 
 ---------------------------------------------------------------------------------------------
 
+Group: Tomas Pasiecznik & Matthew-Ian Blancaflor
+
+---------------------------------------------------------------------------------------------
+
 Outline:
 
 1. Calculator Object
@@ -46,7 +50,7 @@ Outline:
 
 ---------------------------------------------------------------------------------------------
 
-Task List
+Task List (Add names to each task when project is finished)
 
 Task 1
 Description: Mean
