@@ -62,30 +62,30 @@ Description: Median
 Formula:((n + 1) ÷ 2)
 Example:stats.Median([1,2,3,4,5]) = 3
 
-Task 3 - Done By: Tomas Pasiecznik
+Task 3
 Description: Mode
 Formula: Number that occurs most often.
 Example:(n/a)
 
-Task 4
+Task 4 - Done By: Tomas Pasiecznik
 Description: Variance
-Formula: The variance (σ2), is defined as the sum of the squared distances of each term in the distribution from the mean (μ), divided by the number of terms in the distribution (N).
+Formula: (Sum of (x – Mean) )^2)/N
 Example: stats.Variance([1,2,3,4,5,6,7,8,9,10]) = 8.25
 
-Task 5
+Task 5 - Done By: Tomas Pasiecznik
 Description: Standard Deviation
 Formula: Square root of the variance.
 Example: stats.standardDev([1,2,3,4,5,6,7,8,9,10])) = 2.8722813232690143
 
-Task 6
+Task 6 - Done By: Tomas Pasiecznik
 Description: Quartiles
 Formula: Q1, 1/4(n+1), Q3, 3/4(n+1), Q2, Q3-Q1
-Example: (n/a)
+Example: stats.Quartiles([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])) = Lower Quartile (Q1): 4 | Middle Quartile (Q2): 8 | Upper Quartile (Q3): 12
 
-Task 7
+Task 7 - Done By: Tomas Pasiecznik
 Description: Skewness
-Formula: 3 * (Mean – Median) / Standard Deviation
-Example:(n/a)
+Formula: ((Sum of (x – Mean) / Standard Deviation)^3)/N
+Example:stats.Skewness([54,64,85,68,94,21,10,5,79])) = -0.3849103620606639
 
 Task 8
 Description: Sample Correlation
