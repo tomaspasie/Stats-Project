@@ -52,35 +52,35 @@ Outline:
 
 Task List (Add names to each task when project is finished)
 
-Task 1
+Task 1 - Done By: Matthew-Ian Blancaflor
 Description: Mean
 Formula: Sum of Values/# of Values
-Example: 100/10 = 10
+Example: stats.Mean([10,20,30,40] = 25
 
-Task 2
+Task 2 - Done By: Tomas Pasiecznik
 Description: Median
 Formula:((n + 1) ÷ 2)
-Example:((7 + 1) ÷ 2) = 4, The 4th number in the set is the median.
+Example:stats.Median([1,2,3,4,5]) = 3
 
-Task 3
+Task 3 - Done By: Tomas Pasiecznik
 Description: Mode
 Formula: Number that occurs most often.
-Example:{1, 2, 3, 3, 3, 4} Mode: 3
+Example:(n/a)
 
 Task 4
 Description: Variance
 Formula: The variance (σ2), is defined as the sum of the squared distances of each term in the distribution from the mean (μ), divided by the number of terms in the distribution (N).
-Example:(n/a)
+Example: stats.Variance([1,2,3,4,5,6,7,8,9,10]) = 8.25
 
 Task 5
 Description: Standard Deviation
 Formula: Square root of the variance.
-Example:(n/a)
+Example: stats.standardDev([1,2,3,4,5,6,7,8,9,10])) = 2.8722813232690143
 
 Task 6
 Description: Quartiles
-Formula: Count how many numbers there are in your set and then divide by 4 to cut the list of numbers into quarters.
-Example: 2, 5, 6, | 7, 10, 12 | 13, 14, 16, | 22, 45, 65
+Formula: Q1, 1/4(n+1), Q3, 3/4(n+1), Q2, Q3-Q1
+Example: (n/a)
 
 Task 7
 Description: Skewness
