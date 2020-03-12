@@ -1,10 +1,9 @@
 // Index
-const calculator = require('./mathOperations');
+const statistics = require('./statistics');
+let stats = new statistics;
 
-var x = calculator.sum(4,3);
-var y = calculator.difference(4,3);
-var z = calculator.product(4,3);
-
-console.log('The sum of 4 and 3 is ' + x + '.');
-console.log('The difference of 4 and 3 is ' + y + '.');
-console.log('The product of 4 and 3 is ' + z + '.');
+console.log('The Mean is ' + stats.Mean([10,20,30,40]));
+console.log('The Median is ' + stats.Median([1,2,3,4,5]));
+//console.log('The Mode is ' + stats.Mode([1,2,3,3,5]));
+console.log('The Variance is ' + stats.Variance([1,2,3,4,5,6,7,8,9,10]));
+console.log('The Standard Deviation is ' + stats.standardDev([1,2,3,4,5,6,7,8,9,10]));
