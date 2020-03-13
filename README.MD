@@ -113,7 +113,7 @@ Formula: (n/a)
 Example: (n/a)
 
 Task 13
-Description: Random Number Generator
+Description: Random Generator Function
 Formula: 
 Random Generator function
 Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
