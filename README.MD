@@ -102,10 +102,10 @@ Description: Z-Score
 Formula: z = (x-μ)/σ
 Example: stats.zscore([15,37,59,78,91,6,21,48,67,88], 78)) = 0.9291581740284098
 
-Task 11
+Task 11 - Done By: Tomas Pasiecznik
 Description: Mean Deviation / Mean Absolute Deviation
-Formula: Find the mean of all values, use it to work out distances, then find the mean of those distances.
-Example: (n/a)
+Formula: [Sum of] |x − μ|/N
+Example: stats.meanDeviation([15,37,59,78,91,6,21,48,67,88]) = 25.6
 
 Task 12
 Description: Helper Functions (Functions you use for checking types or performing repeated operations)
