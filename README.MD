@@ -112,17 +112,32 @@ Description: Helper Functions (Functions you use for checking types or performin
 Formula: (n/a)
 Example: (n/a)
 
-Task 13
-Description: Random Generator Function
+Task 13 - ENTIRE RANDOM GENERATOR FUNCTION
+
+Description: Random Number Generator
+
 Formula: 
-Random Generator function
-Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
-Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
-Generate a list of N random numbers with a seed and between a range of numbers - Both Integer and Decimal
-Select a random item from a list
-Set a seed and randomly.select the same value from a list
-Select N number of items from a list without a seed
-Select N number of items from a list with a seed
+[Sub-Task 1] Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
+(Done By: )
+
+[Sub-Task 2] Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
+(Done By: )
+
+[Sub-Task 3] Generate a list of N random numbers with a seed and between a range of numbers - Both Integer and Decimal
+(Done By: )
+
+[Sub-Task 4] Select a random item from a list
+(Done By: )
+
+[Sub-Task 5] Set a seed and randomly.select the same value from a list
+(Done By: )
+
+[Sub-Task 6] Select N number of items from a list without a seed
+(Done By: )
+
+[Sub-Task 7] Select N number of items from a list with a seed
+(Done By: )
+
 Example: (n/a)
 
 Task 14
