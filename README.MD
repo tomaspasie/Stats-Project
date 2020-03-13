@@ -97,10 +97,10 @@ Description: Population Correlation
 Formula: p(xy) = σ(xy)[Covariance]/σ(x)σ(y)[Standard Deviations]
 Example: stats.populationCorrelation([15,37,59,78,91],[6,21,48,67,88]) = 0.9926241494348637
 
-Task 10
+Task 10 - Done By: Tomas Pasieczink
 Description: Z-Score
 Formula: z = (x-μ)/σ
-Example: 1.25 = (25-20)/4
+Example: stats.zscore([15,37,59,78,91,6,21,48,67,88], 78)) = 0.9291581740284098
 
 Task 11
 Description: Mean Deviation / Mean Absolute Deviation
