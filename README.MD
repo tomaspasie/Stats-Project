@@ -27,7 +27,7 @@ Outline:
       4. Division -> Calls division function of quotient.js.
       5. Power -> Calls power function of power.js.
       6. Square Root -> Calls root function of root.js.
-  4. Operations Class(es)
+  4. Operations Classes
     1. Addition
       1. Methods 
         1. Adds 2 numbers.
@@ -47,6 +47,19 @@ Outline:
     6. Square Root
       1. Methods
         1. Returns square root of the given number.
+  5. Statistics Functions
+    1. Methods 
+      1. Mean
+      2. Median
+      3. Mode
+      4. Variance
+      5. Standard Deviation
+      6. Quartiles
+      7. Skewness
+      8. Sample Correlation
+      9. Population Correlation
+      10. Z-Score
+      11. Mean Deviation / Mean Absolute Deviation
 
 ---------------------------------------------------------------------------------------------
 
