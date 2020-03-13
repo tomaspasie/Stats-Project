@@ -25,7 +25,32 @@ class Statistics extends calculator{
 	}
 
 	Mode(values){
+		values.sort();
+		let length = values.length
+		let highestNum = 0;
+		let one = values.filter(val => val==values[0]).length;
+		let two = values.filter(val => val==values[0-1]).length;
+		let modes = [];
 
+		for (var i = 1; i < length+1; i++){
+			if (one<two){
+				highestNum = two;
+			}
+
+			one = values.filter(val => val==values[i]).length;
+			two = values.filter(val => val==values[i-1]).length;
+		}
+
+		for (var i = 1; i < length+1; i++){
+			if (values.filter(val => val==values[i]).length == highestNum){
+				if(modes.includes(values[i]) == false){
+					modes += values[i] + ' ';
+				}
+			}
+		}
+		
+
+		return modes;
 	}
 
 	Variance(values) {
