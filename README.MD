@@ -192,3 +192,24 @@ Task 21
 Description: How to Find a Sample Size Given a Confidence Interval and Width (known population standard deviation)
 Formula: (n/a)
 Example: (n/a)
+
+Task 22
+Description: Check values for being valid numbers and not strings.
+Formula: (n/a)
+Example: (n/a)
+
+Task 23
+Description: Throw an exception for divide by zero.
+Formula: (n/a)
+Example: (n/a)
+
+Task 24
+Description: Throw exception for empty list.
+Formula: (n/a)
+Example: (n/a)
+
+Task 25
+Description: TESTS
+Formula: Use random data for tests and be able to increase the number of calculations required i.e. be able to increase the list of numbers that the mean calculation is done on.  You can actually use built in libraries or 3rd party libraries to check your calculations that you complete yourself.  i.e. you can use the standard deviation function from a stats library to compute the correct value for your list of random numbers and then use that to test that your own calculation is correct for that list.
+Example: (n/a)
+
