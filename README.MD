@@ -87,15 +87,15 @@ Description: Skewness
 Formula: ((Sum of (x – Mean) / Standard Deviation)^3)/N
 Example:stats.Skewness([54,64,85,68,94,21,10,5,79])) = -0.3849103620606639
 
-Task 8
+Task 8 - Done By: Tomas Pasiecznik
 Description: Sample Correlation
-Formula:r(xy) = s(xy)/s(x)s(y)
-Example:(n/a)
+Formula:r(xy) = s(xy)[Covariance]/s(x)s(y)[Standard Deviations]
+Example: stats.sampleCorrelation([15,37,59,78,91],[6,21,48,67,88]) = 1.2407801867935795
 
-Task 9
+Task 9 - Done By: Tomas Pasieczink
 Description: Population Correlation
-Formula: p(xy) = σ(xy)/σ(x)σ(y)
-Example:(n/a)
+Formula: p(xy) = σ(xy)[Covariance]/σ(x)σ(y)[Standard Deviations]
+Example: stats.populationCorrelation([15,37,59,78,91],[6,21,48,67,88]) = 0.9926241494348637
 
 Task 10
 Description: Z-Score
