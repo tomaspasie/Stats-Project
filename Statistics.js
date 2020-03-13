@@ -68,19 +68,82 @@ class Statistics extends calculator{
 		return skewness;
 	}
 	
-	/*
-	sampleCorrelation() {
+	
+	sampleCorrelation(x,y) {
+		let length1 = x.length;
+		let length2 = y.length;
+
+		if(length1!=length2){
+			return "[Error: Arrays do not have proper X and Y values.]"
+		};
+
+		let numerator = 0;
+		let denominator = length1 - 1
+
+		let mean1 = this.Mean(x);
+		let mean2 = this.Mean(y);
+		let std1 = this.standardDev(x);
+		let std2 = this.standardDev(y);
 		
+		for (var i = 0; i < length1; i++){
+			numerator += this.product(this.difference(x[i],mean1),this.difference(y[i],mean2));
+		}
+
+		let covariance = this.quotient(numerator,denominator);
+
+		let sampleCorrelation = this.quotient(covariance,this.product(std1,std2));
+
+		return sampleCorrelation;
 	}
-	populationCorrelation() {
+
+	populationCorrelation(x,y) {
+		let length1 = x.length;
+		let length2 = y.length;
+
+		if(length1!=length2){
+			return "[Error: Arrays do not have proper X and Y values.]"
+		};
+
+		let numerator = 0;
+		let denominator = length1
+
+		let mean1 = this.Mean(x);
+		let mean2 = this.Mean(y);
+		let std1 = this.standardDev(x);
+		let std2 = this.standardDev(y);
 		
+		for (var i = 0; i < length1; i++){
+			numerator += this.product(this.difference(x[i],mean1),this.difference(y[i],mean2));
+		}
+
+		let covariance = this.quotient(numerator,denominator);
+
+		let populationCorrelation = this.quotient(covariance,this.product(std1,std2));
+
+		return populationCorrelation;
 	}
-	zscore() {
-		
+
+	zscore(values, value) {
+		let std = this.standardDev(values);
+		let mean = this.Mean(values);
+		let zscore = this.quotient(this.difference(value,mean),std);
+
+		return zscore;
 	}
-	meanDeviation() {
-		
+
+	meanDeviation(values) {
+		let mean = this.Mean(values);
+		let length = values.length;
+		let absValue = 0;
+
+		for (var i = 0; i < length; i++){
+			absValue += Math.abs(this.difference(values[i],mean));
+		}
+
+		let meanDeviation = this.quotient(absValue,length);
+
+		return meanDeviation;
 	}
-	*/
+
 }
 module.exports = Statistics;
