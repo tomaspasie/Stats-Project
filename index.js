@@ -23,4 +23,6 @@ console.log('Population Sampling Functions');
 console.log('----------------------------------------------------------------------------------------------');
 console.log('Simple Random Sampling: ' + sample.simpleRandomSampling([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5));
 console.log('Simple Systematic Sampling: ' + sample.systematicSampling([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2));
-console.log('Confidence Interval: ' + sample.confidenceInterval([15,37,59,78,91,6,21,48,67,88]));
+console.log('Sample Confidence Interval: ' + sample.confidenceInterval([15,37,59,78,91,6,21,48,67,88]));
+console.log('Margin of Error: ' + sample.marginOfError(sample.simpleRandomSampling([15,37,59,78,91,6,21,48,67,88], 5),[15,37,59,78,91,6,21,48,67,88]));
+console.log('Population Confidence Interval: ' + sample.findConfidenceInterval(sample.simpleRandomSampling([15,37,59,78,91,6,21,48,67,88], 5),[15,37,59,78,91,6,21,48,67,88]));
