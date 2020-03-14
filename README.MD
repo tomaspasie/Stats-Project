@@ -153,20 +153,20 @@ Formula:
 
 Example: (n/a)
 
-Task 14
+Task 14 - Done By: Tomas Pasiecznik
 Description: Simple random sampling
 Formula: (n/a)
-Example: (n/a)
+Example: sample.simpleRandomSampling([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5) = 3 1 10 4 7
 
-Task 15
+Task 15 - Done By: Tomas Pasiecznik
 Description: Systematic sampling
 Formula: (n/a)
-Example: (n/a)
+Example: sample.systematicSampling([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2) = 2 4 6 8 10
 
-Task 16
+Task 16  - Done By: Tomas Pasiecznik
 Description: Confidence Interval For a Sample
-Formula: (n/a)
-Example: 95% Confidence Level 
+Formula: ((mean) ± z * ((std)/(sqrt of N))
+Example: sample.confidenceInterval([15,37,59,78,91,6,21,48,67,88]) = 32.9893169479889 ± 69.0106830520111
 
 Task 17
 Description: Margin of Error
