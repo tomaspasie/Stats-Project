@@ -168,15 +168,15 @@ Description: Confidence Interval For a Sample
 Formula: ((mean) ± z * ((std)/(sqrt of N))
 Example: sample.confidenceInterval([15,37,59,78,91,6,21,48,67,88]) = 32.9893169479889 ± 69.0106830520111
 
-Task 17
+Task 17 - Done By: Tomas Pasiecznik
 Description: Margin of Error
 Formula: z(σ/(sqrt(n)))
-Example: (n/a)
+Example: sample.marginOfError(sample.simpleRandomSampling([15,37,59,78,91,6,21,48,67,88], 5),[15,37,59,78,91,6,21,48,67,88]) = 25.47095223975735%
 
-Task 18
+Task 18 - Done By: Tomas Pasiecznik
 Description: How to Find a Confidence Interval
-Formula: (n/a)
-Example: 95% Confidence Level 
+Formula: Population Confidence Interval
+Example: sample.findConfidenceInterval(sample.simpleRandomSampling([15,37,59,78,91,6,21,48,67,88], 5),[15,37,59,78,91,6,21,48,67,88]) = 56.16041742477567 ± 79.83958257522433
 
 Task 19
 Description: Cochran’s Sample Size Formula
