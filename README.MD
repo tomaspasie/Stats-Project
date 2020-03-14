@@ -49,23 +49,36 @@ Outline:
         1. Returns square root of the given number.
   5. Statistics Functions
     1. Methods 
-      1. Mean
-      2. Median
-      3. Mode
-      4. Variance
-      5. Standard Deviation
-      6. Quartiles
-      7. Skewness
-      8. Sample Correlation
-      9. Population Correlation
-      10. Z-Score
-      11. Mean Deviation / Mean Absolute Deviation
+      1. Mean -> Mean(values)
+      2. Median -> Median(values)
+      3. Mode -> Mode(values)
+      4. Variance -> Variance(values)
+      5. Standard Deviation -> standardDev(values)
+      6. Quartiles -> Quartiles(values)
+      7. Skewness -> Skewness(values)
+      8. Sample Correlation -> sampleCorrelation(x,y)
+      9. Population Correlation -> populationCorrelation(x,y)
+      10. Z-Score -> zscore(values, value)
+      11. Mean Deviation / Mean Absolute Deviation -> meanDeviation(values)
+  6. Random Generator Functions
+    1. Methods
+      1.
+  7. Random Generator Functions
+    1. Methods
+      1. Simple Random Sampling -> simpleRandomSampling(values,sampleSize)
+      2. Systematic sampling -> systematicSampling(values,every)
+      3. Confidence Interval For a Sample -> confidenceInterval(sample)
+      4. Margin of Error -> marginOfError(sample,population)
+      5. How to Find a Confidence Interval -> findConfidenceInterval(sample,population)
+      6. Cochran’s Sample Size Formula -> 
+      7. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation) -> 
+      8. How to Find a Sample Size Given a Confidence Interval and Width (known population standard deviation) -> 
 
 ---------------------------------------------------------------------------------------------
 
 Task List (Add names to each task when project is finished)
 
-Task 1 - Done By: Matthew-Ian Blancaflor
+Task 1 - Done By: Tomas Pasiecznik + Matthew-Ian Blancaflor
 Description: Mean
 Formula: Sum of Values/# of Values
 Example: stats.Mean([10,20,30,40] = 25
