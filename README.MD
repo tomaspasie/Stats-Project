@@ -146,16 +146,16 @@ Description: Random Number Generator
 
 Formula: 
 [Sub-Task 1] Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
-(Done By: )
+(Done By: Matthew-Ian Blancaflor)
 
 [Sub-Task 2] Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
-(Done By: )
+(Done By: Matthew-Ian Blancaflor)
 
 [Sub-Task 3] Generate a list of N random numbers with a seed and between a range of numbers - Both Integer and Decimal
-(Done By: )
+(Done By: Matthew-Ian Blancaflor)
 
 [Sub-Task 4] Select a random item from a list
-(Done By: )
+(Done By: Matthew-Ian Blancaflor)
 
 [Sub-Task 5] Set a seed and randomly.select the same value from a list
 (Done By: )
@@ -213,10 +213,10 @@ Description: Check values for being valid numbers and not strings.
 Formula: (n/a)
 Example: (n/a)
 
-Task 23
+Task 23 Done By: Tomas Pasiecznik
 Description: Throw an exception for divide by zero.
 Formula: (n/a)
-Example: (n/a)
+Example: calc.quotient(5/0) = Error: Denominator cannot be 0.
 
 Task 24
 Description: Throw exception for empty list.
