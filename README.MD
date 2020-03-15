@@ -64,7 +64,13 @@ Outline
       11. Mean Deviation / Mean Absolute Deviation -> meanDeviation(values)
   6. Random Generator Functions
     1. Methods
-      1.
+      1. Generate Random Number (No Seed) -> 
+      2. Generate Random Number (With Seed) -> 
+      3. Generate List of Numbers (With Seed, Between A Range) -> 
+      4. Select a random item from a list -> 
+      5. Set Seed and select value from list -> 
+      6. Select N number of items from a list (No Seed) -> 
+      7. Select N number of items from a list (With Seed) -> 
   7. Random Generator Functions
     1. Methods
       1. Simple Random Sampling -> simpleRandomSampling(values,sampleSize)
@@ -72,9 +78,13 @@ Outline
       3. Confidence Interval For a Sample -> confidenceInterval(sample)
       4. Margin of Error -> marginOfError(sample,population)
       5. How to Find a Confidence Interval -> findConfidenceInterval(sample,population)
-      6. Cochran’s Sample Size Formula -> 
-      7. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation) -> 
-      8. How to Find a Sample Size Given a Confidence Interval and Width (known population standard deviation) -> 
+      6. Cochran’s Sample Size Formula -> cochransFormula(values,sampleSizeRecommendation)
+      7. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard   deviation) -> unknownPopStDev(percentageAsDecimal)
+      8. How to Find a Sample Size Given a Confidence Interval and Width (known population standard     deviation) -> knownPopStDev(std)
+  8. Helper Functions
+    1. Methods
+      1. String Check -> stringCheck(value)
+      2. Empty Array Check -> emptyArrayCheck(value)
 
 ---------------------------------------------------------------------------------------------
 
@@ -135,10 +145,10 @@ Description: Mean Deviation / Mean Absolute Deviation
 Formula: [Sum of] |x − μ|/N
 Example: calc.meanDeviation([15,37,59,78,91,6,21,48,67,88]) = 25.6
 
-Task 12
+Task 12 - Done By: Tomas Pasiecznik
 Description: Helper Functions (Functions you use for checking types or performing repeated operations)
-Formula: (n/a)
-Example: (n/a)
+Formula: helperFunctions.js
+Example: help.emptyArrayCheck([]) = Error: Array is empty.
 
 Task 13 - ENTIRE RANDOM GENERATOR FUNCTION
 
@@ -208,22 +218,22 @@ Description: How to Find a Sample Size Given a Confidence Interval and Width (kn
 Formula: ((z*std)/width)^2
 Example: calc.knownPopStDev(2.5) = 97
 
-Task 22
-Description: Check values for being valid numbers and not strings.
-Formula: (n/a)
-Example: (n/a)
+Task 22 - Done By: Tomas Pasiecznik
+Description: Check values for being valid numbers (See Task 24) and not strings.
+Formula: Set up as a helper function (See Task 12)
+Example: help.stringCheck('string') = Error: Value cannot be a string.
 
-Task 23 Done By: Tomas Pasiecznik
+Task 23 - Done By: Tomas Pasiecznik
 Description: Throw an exception for divide by zero.
 Formula: (n/a)
 Example: calc.quotient(5/0) = Error: Denominator cannot be 0.
 
-Task 24
+Task 24 - Done By: Tomas Pasiecznik
 Description: Throw exception for empty list.
-Formula: (n/a)
-Example: (n/a)
+Formula: Set up as a helper function (See Task 12)
+Example: help.emptyArrayCheck([])) = Error: Array is empty.
 
-Task 25
+Task 25 - Done By:
 Description: TESTS
 Formula: Use random data for tests and be able to increase the number of calculations required i.e. be able to increase the list of numbers that the mean calculation is done on.  You can actually use built in libraries or 3rd party libraries to check your calculations that you complete yourself.  i.e. you can use the standard deviation function from a stats library to compute the correct value for your list of random numbers and then use that to test that your own calculation is correct for that list.
 Example: (n/a)
