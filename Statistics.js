@@ -150,7 +150,7 @@ class Statistics extends calculator{
 		return populationCorrelation;
 	}
 
-	zscore(values, value) {
+	zScore(values, value) {
 		let std = this.standardDev(values);
 		let mean = this.Mean(values);
 		let zscore = this.quotient(this.difference(value,mean),std);
@@ -210,8 +210,8 @@ class Statistics extends calculator{
 		let mean = this.Mean(sampleArray);
 		let std = this.standardDev(sampleArray);
 		let z = 1.96;
-		let lower = ((mean) - z * ((std)/(Math.sqrt(length))));
-		let upper = ((mean) + z * ((std)/(Math.sqrt(length))));
+		let lower = ((mean) - z * ((std)/(this.root(length))));
+		let upper = ((mean) + z * ((std)/(this.root(length))));
 		let sampleConfidence = lower + " ± " + upper;
 		
 		return sampleConfidence;
@@ -223,7 +223,7 @@ class Statistics extends calculator{
 		let cv =  1.96;
 		let std = this.standardDev(population);
 		let sLen = sampleArray.length;
-		let margin = (cv * (std/Math.sqrt(sLen)));
+		let margin = (cv * (std/this.root(sLen)));
 		return margin+'%';
 	}
 
@@ -233,25 +233,44 @@ class Statistics extends calculator{
 		let populationLength = population.length;
 		let mean = this.Mean(sampleArray);
 		let std = this.standardDev(sampleArray);
-		let z = 1.960;
-		let lower = ((mean) - z * ((std)/(Math.sqrt(sampleLength))) * (Math.sqrt((populationLength-sampleLength)/(populationLength-1))));
-		let upper = ((mean) + z * ((std)/(Math.sqrt(sampleLength))) * (Math.sqrt((populationLength-sampleLength)/(populationLength-1))));
+		let z = 1.96;
+		let lower = ((mean) - z * ((std)/(this.root(sampleLength))) * (this.root((populationLength-sampleLength)/(populationLength-1))));
+		let upper = ((mean) + z * ((std)/(this.root(sampleLength))) * (this.root((populationLength-sampleLength)/(populationLength-1))));
 		let populationConfidence = lower + " ± " + upper;
 		
 		return populationConfidence;
 	}
 	
-	/*
-	cochransFormula() {
-		
-	}
-	unknownPopStDev() {
-		
-	}
-	knownPopStDev() {
-		
-	}
-	*/
+	
+	cochransFormula(values,sampleSizeRecommendation) {
+		let populationSize = values.length;
+		let cochrans = this.quotient(sampleSizeRecommendation,this.sum(1,this.quotient(this.difference(sampleSizeRecommendation,1),populationSize)));
 
+		return cochrans;
+	}
+	
+	
+	unknownPopStDev(percentageAsDecimal) {
+		let z = 1.96;
+		let width = 0.06;
+		let e = this.quotient(width,2);
+		let p = percentageAsDecimal;
+		let q = this.difference(1,p);
+		let x = this.power(this.quotient(z,e),2);
+		let sample = Math.ceil(this.product(this.product(p,q),x));
+
+		return sample;
+	}
+	
+	knownPopStDev(std) {
+		let z = 1.96;
+		let width = 0.5;
+		let x = this.product(z,std);
+		let sample = Math.ceil(this.power(this.quotient(x,width),2));
+
+		return sample;
+	}
+	
 }
+
 module.exports = Statistics;
