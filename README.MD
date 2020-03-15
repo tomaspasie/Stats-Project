@@ -7,7 +7,9 @@ Group: Tomas Pasiecznik & Matthew-Ian Blancaflor
 
 ---------------------------------------------------------------------------------------------
 
-Outline:
+Documentation:
+
+Outline
 
 1. Calculator Object
   1. Properties
@@ -76,7 +78,7 @@ Outline:
 
 ---------------------------------------------------------------------------------------------
 
-Task List (Add names to each task when project is finished)
+Task List
 
 Task 1 - Done By: Tomas Pasiecznik + Matthew-Ian Blancaflor
 Description: Mean
