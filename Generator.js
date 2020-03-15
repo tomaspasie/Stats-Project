@@ -1,6 +1,5 @@
 const Calculator = require('./Calculator');
 class Generator extends Calculator {
-	/*
 	randomNoSeed(min, max) {
 		return (Math.random() * (max - min + 1) + min);
 	}
@@ -22,6 +21,5 @@ class Generator extends Calculator {
 	selectFromListSeed() {
 		
 	}
-	*/
 }
 module.exports = Generator;
