@@ -191,20 +191,20 @@ Description: How to Find a Confidence Interval
 Formula: Population Confidence Interval
 Example: calc.findConfidenceInterval(sample.simpleRandomSampling([15,37,59,78,91,6,21,48,67,88], 5),[15,37,59,78,91,6,21,48,67,88]) = 56.16041742477567 ± 79.83958257522433
 
-Task 19
+Task 19 - Done By: Tomas Pasiecznik
 Description: Cochran’s Sample Size Formula
 Formula: n = n0 / 1 + ((n0 - 1)/N)
-Example: 278 = 385 / (1 + (385 - 1 /1000))
+Example: calc.cochransFormula([15,37,59,78,91,6,21,48,67,88],5) = 3.5714285714285716
 
-Task 20
+Task 20 - Done By: Tomas Pasiecznik
 Description: How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
-Formula: (n/a)
-Example: (n/a)
+Formula: ((p*q)*((z/(width/2))^2))
+Example: calc.unknownPopStDev(.50) = 1068 
 
-Task 21
+Task 21 - Done By:  Tomas Pasiecznik
 Description: How to Find a Sample Size Given a Confidence Interval and Width (known population standard deviation)
-Formula: (n/a)
-Example: (n/a)
+Formula: ((z*std)/width)^2
+Example: calc.knownPopStDev(2.5) = 97
 
 Task 22
 Description: Check values for being valid numbers and not strings.
