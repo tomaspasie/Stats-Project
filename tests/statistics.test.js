@@ -1,4 +1,4 @@
-const calculator = require('../calculator');
+const calculator = require('../statistics');
 let calc = new calculator;
 
 // Statistics Functions
