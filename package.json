@@ -13,10 +13,9 @@
   "devDependencies": {
     "coveralls": "^3.0.9",
     "jest": "^25.1.0"
+    "jstat": "^1.9.2",
   },
   "dependencies": {
-    "jstat": "^1.9.2",
     "seedrandom": "^3.0.5"
   }
-  "install": "make jstat"
 }
