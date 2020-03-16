@@ -15,7 +15,7 @@
     "jest": "^25.1.0"
   },
   "dependencies": {
-    "jstat": "^1.9.2",
-    "seedrandom": "^3.0.5"
+    "seedrandom": "^3.0.5",
+    "jStat": "1.0.6"
   }
 }
