@@ -1,6 +1,6 @@
 const calculator = require('../statistics');
 const generate = require('../Generator');
-var jStat = require('jstat').jstat;
+var jStat = require('jstat');
 let calc = new calculator;
 let generator = new generate;
 
