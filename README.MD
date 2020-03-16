@@ -64,13 +64,13 @@ Outline
       11. Mean Deviation / Mean Absolute Deviation -> meanDeviation(values)
   6. Random Generator Functions
     1. Methods
-      1. Generate Random Number (No Seed) -> 
-      2. Generate Random Number (With Seed) -> 
-      3. Generate List of Numbers (With Seed, Between A Range) -> 
-      4. Select a random item from a list -> 
-      5. Set Seed and select value from list -> 
-      6. Select N number of items from a list (No Seed) -> 
-      7. Select N number of items from a list (With Seed) -> 
+      1. Generate Random Number (No Seed) -> randomNoSeed(min, max)
+      2. Generate Random Number (With Seed) -> randomSeed(min, max, seed)
+      3. Generate List of Numbers (With Seed, Between A Range) -> randomNumberList(arraylen, min, max, seed)
+      4. Select a random item from a list -> chooseRandomItem(anArray)
+      5. Set Seed and select value from list -> selectSameValue(anArray,seed)
+      6. Select N number of items from a list (No Seed) -> selectFromListNoSeed(anArray, numberToSelect)
+      7. Select N number of items from a list (With Seed) -> selectFromListSeed(anArray, numberToSelect, seed)
   7. Random Generator Functions
     1. Methods
       1. Simple Random Sampling -> simpleRandomSampling(values,sampleSize)
@@ -156,25 +156,25 @@ Description: Random Number Generator
 
 Formula: 
 [Sub-Task 1] Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
-(Done By: Matthew-Ian Blancaflor)
+(Done By: Tomas Pasiecznik & Matthew-Ian Blancaflor)
 
 [Sub-Task 2] Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
-(Done By: Matthew-Ian Blancaflor)
+(Done By: Tomas Pasiecznik & Matthew-Ian Blancaflor)
 
 [Sub-Task 3] Generate a list of N random numbers with a seed and between a range of numbers - Both Integer and Decimal
-(Done By: Matthew-Ian Blancaflor)
+(Done By: Tomas Pasiecznik & Matthew-Ian Blancaflor)
 
 [Sub-Task 4] Select a random item from a list
-(Done By: Matthew-Ian Blancaflor)
+(Done By: Tomas Pasiecznik & Matthew-Ian Blancaflor)
 
 [Sub-Task 5] Set a seed and randomly.select the same value from a list
-(Done By: )
+(Done By: Tomas Pasiecznik)
 
 [Sub-Task 6] Select N number of items from a list without a seed
-(Done By: )
+(Done By: Tomas Pasiecznik)
 
 [Sub-Task 7] Select N number of items from a list with a seed
-(Done By: )
+(Done By: Tomas Pasiecznik)
 
 Example: (n/a)
 
@@ -233,7 +233,7 @@ Description: Throw exception for empty list.
 Formula: Set up as a helper function (See Task 12)
 Example: help.emptyArrayCheck([])) = Error: Array is empty.
 
-Task 25 - Done By:
+Task 25 - Done By: Tomas Pasiecznik
 Description: TESTS
 Formula: Use random data for tests and be able to increase the number of calculations required i.e. be able to increase the list of numbers that the mean calculation is done on.  You can actually use built in libraries or 3rd party libraries to check your calculations that you complete yourself.  i.e. you can use the standard deviation function from a stats library to compute the correct value for your list of random numbers and then use that to test that your own calculation is correct for that list.
 Example: (n/a)
