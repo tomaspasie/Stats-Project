@@ -1,13 +1,13 @@
 const calculator = require('../statistics');
 const generate = require('../Generator');
-var jStat = require('jstat').jstat;
+var jstat = require('jstat').jstat;
 let calc = new calculator;
 let generator = new generate;
 
 // Statistics Functions
 
 test('Mean', () => {
-    expect(calc.Mean(generator.randomNumberList(10, 1, 10, 'test'))).toBe(jStat.mean(generator.randomNumberList(10, 1, 10, 'test')));
+    expect(calc.Mean(generator.randomNumberList(10, 1, 10, 'test'))).toBe(jstat.jstat.mean(generator.randomNumberList(10, 1, 10, 'test')));
 });
 
 test('Median', () => {
