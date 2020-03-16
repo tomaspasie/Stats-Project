@@ -46,7 +46,7 @@ class Statistics extends calculator{
 		for (var i = 1; i < length+1; i++){
 			if (values.filter(val => val==values[i]).length == highestNum){
 				if(modes.includes(values[i]) == false){
-					modes += values[i] + ' ';
+					modes += values[i];
 				}
 			}
 		}
