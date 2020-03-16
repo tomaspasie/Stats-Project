@@ -16,7 +16,7 @@ class Statistics extends calculator{
 		
 		if (numValues%2==0){
 			let position1 = this.quotient(numValues,2);
-			let position2 = this.sum(this.quotient(numValues,2),1)
+			let position2 = this.difference(this.quotient(numValues,2),1);
 			let median = this.quotient(values[position1]+values[position2],2);
 			return median;
 		} else{
