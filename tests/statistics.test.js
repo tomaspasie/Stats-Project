@@ -11,7 +11,7 @@ test('Mean', () => {
 });
 
 test('Median', () => {
-    expect(calc.Median([1,2,3,4,5,6])).toBe(jStat.median([1,2,3,4,5,6]));
+    expect(calc.Median([1,2,3,4,5,6])).toBe(jstat.median([1,2,3,4,5,6]));
 });
 
 test('Mode', () => {
