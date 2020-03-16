@@ -1,10 +1,12 @@
 const calculator = require('../statistics');
+const generate = require('../Generator');
 let calc = new calculator;
+let generator = new generate;
 
 // Statistics Functions
 
 test('Mean', () => {
-    expect(calc.Mean([10,20,30,40])).toBe(25); // Change Values to Numbers From Random Generator
+    expect(generator.randomSeed(0, 10, 'seed')).toBe(5.661807692527293); // Change Values to Numbers From Random Generator
 });
 
 /*
