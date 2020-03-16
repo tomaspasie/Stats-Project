@@ -1,4 +1,4 @@
-const calculator = require('../statistics');
+const calculator = require('../statistics.js');
 const generate = require('../Generator');
 let calc = new calculator;
 let generator = new generate;
